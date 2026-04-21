@@ -53,6 +53,9 @@
     <Reference Include="QRCoder, Version=1.6.0.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
       <HintPath>..\packages\QRCoder.1.6.0\lib\net40\QRCoder.dll</HintPath>
     </Reference>
+    <Reference Include="Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Siticone.Desktop.UI.2.1.1\lib\net40\Siticone.Desktop.UI.dll</HintPath>
+    </Reference>
     <Reference Include="SiticoneNetFrameworkUI, Version=2026.2.22.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Siticone.NetFramework.UI.2026.2.22\lib\net48\SiticoneNetFrameworkUI.dll</HintPath>
     </Reference>
@@ -104,6 +107,13 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\Conexion.cs" />
+    <Compile Include="Dialog\FormEliminarEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FormEliminarEmpresa.Designer.cs">
+      <DependentUpon>FormEliminarEmpresa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +122,48 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsersControl\Contratos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsersControl\Contratos.Designer.cs">
+      <DependentUpon>Contratos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControl\Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsersControl\Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControl\Descargas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsersControl\Descargas.Designer.cs">
+      <DependentUpon>Descargas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControl\Empresas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsersControl\Empresas.Designer.cs">
+      <DependentUpon>Empresas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControl\InicioDashBoard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsersControl\InicioDashBoard.Designer.cs">
+      <DependentUpon>InicioDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControl\Promciones.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsersControl\Promciones.Designer.cs">
+      <DependentUpon>Promciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControl\Viviendas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsersControl\Viviendas.Designer.cs">
+      <DependentUpon>Viviendas.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,7 +175,35 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UsersControl\Contratos.resx">
+      <DependentUpon>Contratos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersControl\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersControl\Descargas.resx">
+      <DependentUpon>Descargas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersControl\Empresas.resx">
+      <DependentUpon>Empresas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersControl\InicioDashBoard.aa.resx">
+      <DependentUpon>InicioDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersControl\InicioDashBoard.en-US.resx">
+      <DependentUpon>InicioDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersControl\InicioDashBoard.resx">
+      <DependentUpon>InicioDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersControl\Promciones.resx">
+      <DependentUpon>Promciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersControl\Viviendas.resx">
+      <DependentUpon>Viviendas.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -134,9 +214,156 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Dialog\FormEditarPromocion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FormEditarPromocion.Designer.cs">
+      <DependentUpon>FormEditarPromocion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\FormEliminarPromocion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FormEliminarPromocion.Designer.cs">
+      <DependentUpon>FormEliminarPromocion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\FormEditarPromotora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FormEditarPromotora.Designer.cs">
+      <DependentUpon>FormEditarPromotora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\FormEliminarPromotora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FormEliminarPromotora.Designer.cs">
+      <DependentUpon>FormEliminarPromotora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\FormEditarEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FormEditarEmpresa.Designer.cs">
+      <DependentUpon>FormEditarEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersControl\Promotora.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsersControl\Promotora.Designer.cs">
+      <DependentUpon>Promotora.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UsersControl\Promotora.resx">
+      <DependentUpon>Promotora.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- ViviendaCard UserControl -->
+    <Compile Include="UsersControl\ViviendaCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsersControl\ViviendaCard.Designer.cs">
+      <DependentUpon>ViviendaCard.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UsersControl\ViviendaCard.resx">
+      <DependentUpon>ViviendaCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- FormAgregarVivienda -->
+    <Compile Include="Dialog\FormAgregarVivienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FormAgregarVivienda.Designer.cs">
+      <DependentUpon>FormAgregarVivienda.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dialog\FormAgregarVivienda.resx">
+      <DependentUpon>FormAgregarVivienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- FormEditarVivienda -->
+    <Compile Include="Dialog\FormEditarVivienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FormEditarVivienda.Designer.cs">
+      <DependentUpon>FormEditarVivienda.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dialog\FormEditarVivienda.resx">
+      <DependentUpon>FormEditarVivienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- FormVerVivienda -->
+    <Compile Include="Dialog\FormVerVivienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FormVerVivienda.Designer.cs">
+      <DependentUpon>FormVerVivienda.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dialog\FormVerVivienda.resx">
+      <DependentUpon>FormVerVivienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- FormEditarContrato -->
+    <Compile Include="Dialog\FormEditarContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FormEditarContrato.Designer.cs">
+      <DependentUpon>FormEditarContrato.cs</DependentUpon>
+    </Compile>
+    <!-- FormEliminarContrato -->
+    <Compile Include="Dialog\FormEliminarContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\FormEliminarContrato.Designer.cs">
+      <DependentUpon>FormEliminarContrato.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-start-page-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menu-28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-circled-menu-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-circled-menu-261.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-price-tag-28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exterior-29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-organization-28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-contract-28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-export-28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-discount-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-real-estate-70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-real-estate-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-29 %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

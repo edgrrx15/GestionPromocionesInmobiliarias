@@ -1,0 +1,2071 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="c4V.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 38</value>
+  </data>
+  <data name="&gt;&gt;line3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Separator, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;c3V.Name" xml:space="preserve">
+    <value>c3V</value>
+  </data>
+  <data name="&gt;&gt;p1Title.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="act2T.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 100</value>
+  </data>
+  <data name="&gt;&gt;act2S.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;line5.Parent" xml:space="preserve">
+    <value>pnlPromo2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="p2L1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="p1V2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 120</value>
+  </data>
+  <data name="heroTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 21.75pt, style=Bold</value>
+  </data>
+  <data name="lblPortafolioVal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPortafolioSub.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="p1BadgeText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;heroTitle.Name" xml:space="preserve">
+    <value>heroTitle</value>
+  </data>
+  <data name="&gt;&gt;p1L3.Name" xml:space="preserve">
+    <value>p1L3</value>
+  </data>
+  <data name="p2V2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="&gt;&gt;act1S.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="heroCard.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;c2V.Name" xml:space="preserve">
+    <value>c2V</value>
+  </data>
+  <data name="c1S.Text" xml:space="preserve">
+    <value>+3 este mes</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 240</value>
+  </data>
+  <data name="&gt;&gt;gunaVScroll.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2VScrollBar, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;card3.Name" xml:space="preserve">
+    <value>card3</value>
+  </data>
+  <data name="c3V.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 38</value>
+  </data>
+  <data name="&gt;&gt;c1V.Name" xml:space="preserve">
+    <value>c1V</value>
+  </data>
+  <data name="lblStatusBadge.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 8.5pt, style=Bold</value>
+  </data>
+  <data name="c1S.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 18</value>
+  </data>
+  <data name="line2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 110</value>
+  </data>
+  <data name="p1V2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;c1S.Parent" xml:space="preserve">
+    <value>card1</value>
+  </data>
+  <data name="act1T.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="portafolioCard.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;p2L1.Parent" xml:space="preserve">
+    <value>pnlPromo2</value>
+  </data>
+  <data name="&gt;&gt;line6.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Separator, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;lblStatusBadge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;subPromo.Parent" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;p1L2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1T.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 18</value>
+  </data>
+  <data name="&gt;&gt;c3S.Parent" xml:space="preserve">
+    <value>card3</value>
+  </data>
+  <data name="btnViviendas.Text" xml:space="preserve">
+    <value>Administrar viviendas</value>
+  </data>
+  <data name="p2L2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="p2Title.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;titlePromo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="c2V.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 18pt, style=Bold</value>
+  </data>
+  <data name="lblPortafolioVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 51</value>
+  </data>
+  <data name="card4.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;p2Sub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;card2.Name" xml:space="preserve">
+    <value>card2</value>
+  </data>
+  <data name="&gt;&gt;p1V3.Name" xml:space="preserve">
+    <value>p1V3</value>
+  </data>
+  <data name="&gt;&gt;subPromo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlPromo2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="subPromo.Text" xml:space="preserve">
+    <value>Las promociones con mejor rentabilidad</value>
+  </data>
+  <data name="p2Sub.Text" xml:space="preserve">
+    <value>Rosarito, B.C.</value>
+  </data>
+  <data name="c2V.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 38</value>
+  </data>
+  <data name="c1V.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 37</value>
+  </data>
+  <data name="c4S.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="line3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 10</value>
+  </data>
+  <data name="heroDesc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 11.25pt</value>
+  </data>
+  <data name="&gt;&gt;pnlActivity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;act1T.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="act1T.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 19</value>
+  </data>
+  <data name="p2V1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="p1V1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;p2V1.Parent" xml:space="preserve">
+    <value>pnlPromo2</value>
+  </data>
+  <data name="&gt;&gt;guna2Elipse1.Name" xml:space="preserve">
+    <value>guna2Elipse1</value>
+  </data>
+  <data name="lblPortafolioTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;p1Sub.Parent" xml:space="preserve">
+    <value>pnlPromo1</value>
+  </data>
+  <data name="&gt;&gt;line2.Parent" xml:space="preserve">
+    <value>pnlPromo1</value>
+  </data>
+  <data name="&gt;&gt;p1Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="guna2VScrollBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 693</value>
+  </data>
+  <data name="c2V.Text" xml:space="preserve">
+    <value>146</value>
+  </data>
+  <data name="&gt;&gt;pnlPromo1.Parent" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="pnlPromo1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 24, 3</value>
+  </data>
+  <data name="line1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 10</value>
+  </data>
+  <data name="c2S.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;c4T.Parent" xml:space="preserve">
+    <value>card4</value>
+  </data>
+  <data name="&gt;&gt;p2Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;titlePromo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="titlePromo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-5, 9</value>
+  </data>
+  <data name="line3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 150</value>
+  </data>
+  <data name="act1Icon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 25</value>
+  </data>
+  <data name="&gt;&gt;p2BadgeText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="p2L1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 80</value>
+  </data>
+  <data name="&gt;&gt;guna2VScrollBar1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2VScrollBar, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;c4S.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;heroTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPortafolioTitle.Parent" xml:space="preserve">
+    <value>portafolioCard</value>
+  </data>
+  <data name="btnViviendas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 171</value>
+  </data>
+  <data name="&gt;&gt;card2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="act2T.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 19</value>
+  </data>
+  <data name="&gt;&gt;lblPortafolioTitle.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;line5.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Separator, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="card4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>865, 14</value>
+  </data>
+  <data name="btnPromociones.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 45</value>
+  </data>
+  <data name="&gt;&gt;p2Title.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="act2Icon.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="portafolioCard.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;line5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="act2S.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="lblPortafolioTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 25</value>
+  </data>
+  <data name="titleActivity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 18pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;p2L1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;line3.Name" xml:space="preserve">
+    <value>line3</value>
+  </data>
+  <data name="c4T.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlPromo2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="c3V.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 29</value>
+  </data>
+  <data name="act2Icon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 105</value>
+  </data>
+  <data name="p1Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 21</value>
+  </data>
+  <data name="c3V.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;p1L2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblPortafolioSub.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="p1V1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="&gt;&gt;p1BadgeText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;c2V.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStatusBadge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 30</value>
+  </data>
+  <data name="p2L2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnViviendas.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnViviendas.Parent" xml:space="preserve">
+    <value>heroCard</value>
+  </data>
+  <data name="p2L3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 15</value>
+  </data>
+  <data name="&gt;&gt;panelPrincipal.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="line2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="act1Icon.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;c1V.Parent" xml:space="preserve">
+    <value>card1</value>
+  </data>
+  <data name="card1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="p1L3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;c4T.Name" xml:space="preserve">
+    <value>c4T</value>
+  </data>
+  <data name="act1S.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p2Title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;p1V1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="subActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 17</value>
+  </data>
+  <data name="&gt;&gt;panelPrincipal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="p2BadgeText.Text" xml:space="preserve">
+    <value>En venta</value>
+  </data>
+  <data name="&gt;&gt;act2T.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblPortafolioVal.Text" xml:space="preserve">
+    <value>$48.6M</value>
+  </data>
+  <data name="p2V2.Text" xml:space="preserve">
+    <value>Cargado</value>
+  </data>
+  <data name="&gt;&gt;card4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="p1V2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="p2L1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 15</value>
+  </data>
+  <data name="p1Title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="p2L3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;c3V.Parent" xml:space="preserve">
+    <value>card3</value>
+  </data>
+  <data name="subActivity.Text" xml:space="preserve">
+    <value>Movimientos del sistema en tiempo real.</value>
+  </data>
+  <data name="c4S.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 18</value>
+  </data>
+  <data name="p1V1.Text" xml:space="preserve">
+    <value>12 unidades</value>
+  </data>
+  <data name="&gt;&gt;heroTitle.Parent" xml:space="preserve">
+    <value>heroCard</value>
+  </data>
+  <data name="&gt;&gt;act1T.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="subPromo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 17</value>
+  </data>
+  <data name="act2T.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt, style=Bold</value>
+  </data>
+  <data name="c1T.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 11pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;p1Badge.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="lblPortafolioTitle.Text" xml:space="preserve">
+    <value>Valor total inmobiliario
+Portafolio general</value>
+  </data>
+  <data name="&gt;&gt;c3T.Parent" xml:space="preserve">
+    <value>card3</value>
+  </data>
+  <data name="line1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 70</value>
+  </data>
+  <data name="p2V1.Text" xml:space="preserve">
+    <value>8 unidades</value>
+  </data>
+  <data name="subActivity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="line4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="card1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 12, 3</value>
+  </data>
+  <data name="&gt;&gt;p2Title.Parent" xml:space="preserve">
+    <value>pnlPromo2</value>
+  </data>
+  <data name="&gt;&gt;gunaVScroll.Name" xml:space="preserve">
+    <value>gunaVScroll</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel1.Name" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="p2V3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;p2L2.Name" xml:space="preserve">
+    <value>p2L2</value>
+  </data>
+  <data name="&gt;&gt;p2BadgeText.Name" xml:space="preserve">
+    <value>p2BadgeText</value>
+  </data>
+  <data name="c2S.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 11pt, style=Bold</value>
+  </data>
+  <data name="p2V3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="card4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 110</value>
+  </data>
+  <data name="&gt;&gt;btnPromociones.Parent" xml:space="preserve">
+    <value>heroCard</value>
+  </data>
+  <data name="&gt;&gt;gunaVScroll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;p2L3.Name" xml:space="preserve">
+    <value>p2L3</value>
+  </data>
+  <data name="&gt;&gt;portafolioCard.Parent" xml:space="preserve">
+    <value>heroCard</value>
+  </data>
+  <data name="&gt;&gt;p2V2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4S.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p2Badge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 20</value>
+  </data>
+  <data name="&gt;&gt;p1L3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1T.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblPortafolioSub.Parent" xml:space="preserve">
+    <value>portafolioCard</value>
+  </data>
+  <data name="&gt;&gt;subActivity.Name" xml:space="preserve">
+    <value>subActivity</value>
+  </data>
+  <data name="&gt;&gt;c1V.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;p1V1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panelPrincipal.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="c3S.Text" xml:space="preserve">
+    <value>Construcción, publicidad y venta</value>
+  </data>
+  <data name="&gt;&gt;line6.Name" xml:space="preserve">
+    <value>line6</value>
+  </data>
+  <data name="p2V1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;p2L3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4V.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="c3S.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;heroDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="p1Title.Text" xml:space="preserve">
+    <value>Residencial Vista Norte</value>
+  </data>
+  <data name="c3S.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 18</value>
+  </data>
+  <data name="guna2Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="p2BadgeText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8pt, style=Bold</value>
+  </data>
+  <data name="heroTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="p2L2.Text" xml:space="preserve">
+    <value>Plano situación</value>
+  </data>
+  <data name="p1L2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 120</value>
+  </data>
+  <data name="&gt;&gt;heroDesc.Parent" xml:space="preserve">
+    <value>heroCard</value>
+  </data>
+  <data name="&gt;&gt;p1L3.Parent" xml:space="preserve">
+    <value>pnlPromo1</value>
+  </data>
+  <data name="p1BadgeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;p2V3.Name" xml:space="preserve">
+    <value>p2V3</value>
+  </data>
+  <data name="&gt;&gt;card1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlPromo2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;p2V2.Name" xml:space="preserve">
+    <value>p2V2</value>
+  </data>
+  <data name="&gt;&gt;p1Title.Name" xml:space="preserve">
+    <value>p1Title</value>
+  </data>
+  <data name="p1BadgeText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="line1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pnlPromo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 200</value>
+  </data>
+  <data name="&gt;&gt;p2Sub.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="act2T.Text" xml:space="preserve">
+    <value>Contrato generado</value>
+  </data>
+  <data name="&gt;&gt;act1Icon.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="p1L2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblStatusBadge.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;p1Badge.Name" xml:space="preserve">
+    <value>p1Badge</value>
+  </data>
+  <data name="&gt;&gt;heroCard.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2GradientPanel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="p2L1.Text" xml:space="preserve">
+    <value>Viviendas</value>
+  </data>
+  <data name="&gt;&gt;act2Icon.Parent" xml:space="preserve">
+    <value>pnlActivity</value>
+  </data>
+  <data name="lblPortafolioTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 32</value>
+  </data>
+  <data name="p1L1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;p1Sub.Name" xml:space="preserve">
+    <value>p1Sub</value>
+  </data>
+  <data name="pnlActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="c1V.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;c1T.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="titlePromo.Text" xml:space="preserve">
+    <value>Promociones destacadas</value>
+  </data>
+  <data name="p1V3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="c1V.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;c2S.Parent" xml:space="preserve">
+    <value>card2</value>
+  </data>
+  <data name="pnlActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>773, 79</value>
+  </data>
+  <data name="&gt;&gt;p2L1.Name" xml:space="preserve">
+    <value>p2L1</value>
+  </data>
+  <data name="act2S.Text" xml:space="preserve">
+    <value>Constructora Delta firmó contrato por $850k...</value>
+  </data>
+  <data name="&gt;&gt;lblPortafolioSub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnViviendas.Name" xml:space="preserve">
+    <value>btnViviendas</value>
+  </data>
+  <data name="&gt;&gt;lblStatusBadge.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;card3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="p1L2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;guna2Elipse2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Elipse, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="panel2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="act1T.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;c4V.Name" xml:space="preserve">
+    <value>c4V</value>
+  </data>
+  <data name="&gt;&gt;heroCard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlPromo1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="act2Icon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="pnlPromo1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="p2V3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 160</value>
+  </data>
+  <data name="&gt;&gt;panelPrincipal.Name" xml:space="preserve">
+    <value>panelPrincipal</value>
+  </data>
+  <data name="&gt;&gt;line1.Parent" xml:space="preserve">
+    <value>pnlPromo1</value>
+  </data>
+  <data name="p1Sub.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;p2L3.Parent" xml:space="preserve">
+    <value>pnlPromo2</value>
+  </data>
+  <data name="&gt;&gt;act1T.Parent" xml:space="preserve">
+    <value>pnlActivity</value>
+  </data>
+  <data name="line3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="c4V.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 18pt, style=Bold</value>
+  </data>
+  <data name="heroCard.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="card3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="heroDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 104</value>
+  </data>
+  <data name="p2Sub.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;card2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="p1Title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;p1BadgeText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="p1Sub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 15</value>
+  </data>
+  <data name="c2T.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 18</value>
+  </data>
+  <data name="p2BadgeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 24</value>
+  </data>
+  <data name="btnPromociones.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 171</value>
+  </data>
+  <data name="line6.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;act1S.Parent" xml:space="preserve">
+    <value>pnlActivity</value>
+  </data>
+  <data name="&gt;&gt;line1.Name" xml:space="preserve">
+    <value>line1</value>
+  </data>
+  <data name="&gt;&gt;lblPortafolioVal.Parent" xml:space="preserve">
+    <value>portafolioCard</value>
+  </data>
+  <data name="c2S.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="c3T.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 18</value>
+  </data>
+  <data name="c4V.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 29</value>
+  </data>
+  <data name="&gt;&gt;card1.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lblStatusBadge.Parent" xml:space="preserve">
+    <value>portafolioCard</value>
+  </data>
+  <data name="&gt;&gt;heroDesc.Name" xml:space="preserve">
+    <value>heroDesc</value>
+  </data>
+  <data name="&gt;&gt;p2V3.Parent" xml:space="preserve">
+    <value>pnlPromo2</value>
+  </data>
+  <data name="c3T.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;act2Icon.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblPortafolioTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;c3S.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;act1Icon.Parent" xml:space="preserve">
+    <value>pnlActivity</value>
+  </data>
+  <data name="p2L3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;card4.Name" xml:space="preserve">
+    <value>card4</value>
+  </data>
+  <data name="&gt;&gt;p2V2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="p1L1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;c2T.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="portafolioCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>722, 24</value>
+  </data>
+  <data name="p1Sub.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="card2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 14</value>
+  </data>
+  <data name="&gt;&gt;c3V.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;card4.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panelPrincipal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlPromo2.Parent" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="act1S.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 15</value>
+  </data>
+  <data name="c2T.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="p1Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="&gt;&gt;line3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="heroTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 80</value>
+  </data>
+  <data name="&gt;&gt;p1L1.Parent" xml:space="preserve">
+    <value>pnlPromo1</value>
+  </data>
+  <data name="p1V3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lblPortafolioTitle.Name" xml:space="preserve">
+    <value>lblPortafolioTitle</value>
+  </data>
+  <data name="&gt;&gt;p2Badge.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;c3V.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="p2L2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 15</value>
+  </data>
+  <data name="p2V1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="&gt;&gt;c1T.Parent" xml:space="preserve">
+    <value>card1</value>
+  </data>
+  <data name="&gt;&gt;line2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Separator, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;titlePromo.Parent" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="act2S.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 125</value>
+  </data>
+  <data name="&gt;&gt;titlePromo.Name" xml:space="preserve">
+    <value>titlePromo</value>
+  </data>
+  <data name="c4V.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;subPromo.Name" xml:space="preserve">
+    <value>subPromo</value>
+  </data>
+  <data name="card2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 110</value>
+  </data>
+  <data name="&gt;&gt;c4V.Parent" xml:space="preserve">
+    <value>card4</value>
+  </data>
+  <data name="c1V.Text" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;act2S.Name" xml:space="preserve">
+    <value>act2S</value>
+  </data>
+  <data name="&gt;&gt;p2Title.Name" xml:space="preserve">
+    <value>p2Title</value>
+  </data>
+  <data name="heroCard.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>24, 24, 24, 24</value>
+  </data>
+  <data name="&gt;&gt;c1S.Name" xml:space="preserve">
+    <value>c1S</value>
+  </data>
+  <data name="p1L3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 160</value>
+  </data>
+  <data name="titleActivity.Text" xml:space="preserve">
+    <value>Actividad reciente</value>
+  </data>
+  <data name="&gt;&gt;p1L3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;guna2VScrollBar1.Name" xml:space="preserve">
+    <value>guna2VScrollBar1</value>
+  </data>
+  <data name="&gt;&gt;act1T.Name" xml:space="preserve">
+    <value>act1T</value>
+  </data>
+  <data name="act1S.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="c2V.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 29</value>
+  </data>
+  <data name="&gt;&gt;p1Sub.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;c4S.Name" xml:space="preserve">
+    <value>c4S</value>
+  </data>
+  <data name="&gt;&gt;portafolioCard.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;p1V1.Parent" xml:space="preserve">
+    <value>pnlPromo1</value>
+  </data>
+  <data name="&gt;&gt;p1Badge.Parent" xml:space="preserve">
+    <value>pnlPromo1</value>
+  </data>
+  <data name="act2S.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 15</value>
+  </data>
+  <data name="&gt;&gt;titleActivity.Name" xml:space="preserve">
+    <value>titleActivity</value>
+  </data>
+  <data name="btnPromociones.Text" xml:space="preserve">
+    <value>Ver promociones</value>
+  </data>
+  <data name="&gt;&gt;c2V.Parent" xml:space="preserve">
+    <value>card2</value>
+  </data>
+  <data name="heroDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 64</value>
+  </data>
+  <data name="c1T.Text" xml:space="preserve">
+    <value>Promociones activas</value>
+  </data>
+  <data name="lblPortafolioSub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 16</value>
+  </data>
+  <data name="&gt;&gt;act2Icon.Name" xml:space="preserve">
+    <value>act2Icon</value>
+  </data>
+  <data name="act1S.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 45</value>
+  </data>
+  <data name="c2V.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="p2L2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 120</value>
+  </data>
+  <data name="c4V.Text" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;gunaVScroll.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;card2.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;line1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="p1L1.Text" xml:space="preserve">
+    <value>Viviendas</value>
+  </data>
+  <data name="p1Badge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 20</value>
+  </data>
+  <data name="titleActivity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;c4V.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="line5.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="line6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 10</value>
+  </data>
+  <data name="titleActivity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;p2V1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="titlePromo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 18pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblPortafolioVal.Name" xml:space="preserve">
+    <value>lblPortafolioVal</value>
+  </data>
+  <data name="p1Sub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 45</value>
+  </data>
+  <data name="act1Icon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="lblPortafolioVal.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblStatusBadge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 19</value>
+  </data>
+  <data name="c4T.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 11pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;line2.Name" xml:space="preserve">
+    <value>line2</value>
+  </data>
+  <data name="&gt;&gt;p1L1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="c4T.Text" xml:space="preserve">
+    <value>Contratos vigentes</value>
+  </data>
+  <data name="pnlPromo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-5, 79</value>
+  </data>
+  <data name="&gt;&gt;c1S.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;c2S.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p1V3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;line1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Separator, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="guna2VScrollBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="titlePromo.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnPromociones.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;p1Title.Parent" xml:space="preserve">
+    <value>pnlPromo1</value>
+  </data>
+  <data name="&gt;&gt;subActivity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;act1Icon.Name" xml:space="preserve">
+    <value>act1Icon</value>
+  </data>
+  <data name="&gt;&gt;p2Badge.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="titlePromo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 29</value>
+  </data>
+  <data name="p1V3.Text" xml:space="preserve">
+    <value>5 asociadas</value>
+  </data>
+  <data name="&gt;&gt;p2Sub.Name" xml:space="preserve">
+    <value>p2Sub</value>
+  </data>
+  <data name="&gt;&gt;p2V2.Parent" xml:space="preserve">
+    <value>pnlPromo2</value>
+  </data>
+  <data name="&gt;&gt;btnPromociones.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="p2Sub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 15</value>
+  </data>
+  <data name="heroDesc.Text" xml:space="preserve">
+    <value>La idea aquí es combinar el look fintech premium de Revolut con un sistema administrativo empresarial. Todo se ve limpio, oscuro, con glow suave, mejor jerarquía visual y cards mucho más refinadas.</value>
+  </data>
+  <data name="&gt;&gt;portafolioCard.Name" xml:space="preserve">
+    <value>portafolioCard</value>
+  </data>
+  <data name="act1T.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;act2S.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c1T.Name" xml:space="preserve">
+    <value>c1T</value>
+  </data>
+  <data name="p1BadgeText.Text" xml:space="preserve">
+    <value>Activa</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>InicioDashBoard</value>
+  </data>
+  <data name="p1V1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="btnViviendas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 45</value>
+  </data>
+  <data name="&gt;&gt;act2T.Parent" xml:space="preserve">
+    <value>pnlActivity</value>
+  </data>
+  <data name="titleActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="p2BadgeText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="p2Title.Text" xml:space="preserve">
+    <value>Jardines del Mar</value>
+  </data>
+  <data name="&gt;&gt;c4S.Parent" xml:space="preserve">
+    <value>card4</value>
+  </data>
+  <data name="c2T.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 11pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblStatusBadge.Name" xml:space="preserve">
+    <value>lblStatusBadge</value>
+  </data>
+  <data name="&gt;&gt;c3S.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="line5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 110</value>
+  </data>
+  <data name="&gt;&gt;c4T.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;c3T.Name" xml:space="preserve">
+    <value>c3T</value>
+  </data>
+  <data name="&gt;&gt;card3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="line6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 150</value>
+  </data>
+  <data name="&gt;&gt;p2L2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="p2Badge.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;p2L2.Parent" xml:space="preserve">
+    <value>pnlPromo2</value>
+  </data>
+  <data name="p2V1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 80</value>
+  </data>
+  <data name="&gt;&gt;p1L1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;card4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p2Sub.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="p1L1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 15</value>
+  </data>
+  <data name="p2L3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;act2S.Parent" xml:space="preserve">
+    <value>pnlActivity</value>
+  </data>
+  <data name="&gt;&gt;act2T.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;heroDesc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlPromo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 200</value>
+  </data>
+  <data name="p2V2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;card1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="btnPromociones.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 9.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;btnPromociones.Name" xml:space="preserve">
+    <value>btnPromociones</value>
+  </data>
+  <data name="p1BadgeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 24</value>
+  </data>
+  <data name="&gt;&gt;act1S.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="line4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 70</value>
+  </data>
+  <data name="p1L2.Text" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="c1V.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 23pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;p2Badge.Name" xml:space="preserve">
+    <value>p2Badge</value>
+  </data>
+  <data name="&gt;&gt;subPromo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblPortafolioSub.Name" xml:space="preserve">
+    <value>lblPortafolioSub</value>
+  </data>
+  <data name="&gt;&gt;c1V.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="guna2Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="pnlActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 200</value>
+  </data>
+  <data name="&gt;&gt;p2BadgeText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;line6.Parent" xml:space="preserve">
+    <value>pnlPromo2</value>
+  </data>
+  <data name="p2L1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;c3T.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="p1V2.Text" xml:space="preserve">
+    <value>Residencial premium</value>
+  </data>
+  <data name="&gt;&gt;c2T.Parent" xml:space="preserve">
+    <value>card2</value>
+  </data>
+  <data name="&gt;&gt;act1S.Name" xml:space="preserve">
+    <value>act1S</value>
+  </data>
+  <data name="&gt;&gt;heroTitle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="c4S.Text" xml:space="preserve">
+    <value>Importe total activo $8.2M</value>
+  </data>
+  <data name="p1V3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;p1Badge.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPortafolioSub.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;p1L2.Name" xml:space="preserve">
+    <value>p1L2</value>
+  </data>
+  <data name="p1L3.Text" xml:space="preserve">
+    <value>Empresas ligadas</value>
+  </data>
+  <data name="&gt;&gt;line4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblPortafolioVal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPortafolioSub.Text" xml:space="preserve">
+    <value>Promedio por promoción - $2.7M MXN por unidad</value>
+  </data>
+  <data name="p2V3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="heroCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1125, 240</value>
+  </data>
+  <data name="lblPortafolioVal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 32.25pt, style=Bold</value>
+  </data>
+  <data name="p1BadgeText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="p2Title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="subActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;p1V2.Parent" xml:space="preserve">
+    <value>pnlPromo1</value>
+  </data>
+  <data name="&gt;&gt;c4T.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStatusBadge.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblPortafolioSub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 125</value>
+  </data>
+  <data name="c4T.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="&gt;&gt;titleActivity.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;guna2Elipse2.Name" xml:space="preserve">
+    <value>guna2Elipse2</value>
+  </data>
+  <data name="&gt;&gt;line6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="heroCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;pnlActivity.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="subPromo.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="c3S.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="line4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 10</value>
+  </data>
+  <data name="&gt;&gt;c2V.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="titleActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 29</value>
+  </data>
+  <data name="p2BadgeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="subActivity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 10pt</value>
+  </data>
+  <data name="c1T.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="subActivity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="c3V.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 18pt, style=Bold</value>
+  </data>
+  <data name="btnPromociones.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlPromo1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;c3T.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;guna2Elipse1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Elipse, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="p1L3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;c3S.Name" xml:space="preserve">
+    <value>c3S</value>
+  </data>
+  <data name="act2T.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;act1Icon.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="p2BadgeText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;line4.Parent" xml:space="preserve">
+    <value>pnlPromo2</value>
+  </data>
+  <data name="lblStatusBadge.Text" xml:space="preserve">
+    <value>Actualizado</value>
+  </data>
+  <data name="&gt;&gt;p1V2.Name" xml:space="preserve">
+    <value>p1V2</value>
+  </data>
+  <data name="card2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="c3V.Text" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="guna2Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1101, 299</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblPortafolioTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c2S.Name" xml:space="preserve">
+    <value>c2S</value>
+  </data>
+  <data name="p1Sub.Text" xml:space="preserve">
+    <value>Tijuana, Baja California</value>
+  </data>
+  <data name="c1S.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 80</value>
+  </data>
+  <data name="&gt;&gt;lblPortafolioVal.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;p1Sub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;line5.Name" xml:space="preserve">
+    <value>line5</value>
+  </data>
+  <data name="act2S.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;heroCard.Name" xml:space="preserve">
+    <value>heroCard</value>
+  </data>
+  <data name="&gt;&gt;pnlPromo1.Name" xml:space="preserve">
+    <value>pnlPromo1</value>
+  </data>
+  <data name="p1L1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 80</value>
+  </data>
+  <data name="c4S.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 80</value>
+  </data>
+  <data name="&gt;&gt;p2V1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;p1BadgeText.Parent" xml:space="preserve">
+    <value>p1Badge</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1125, 154</value>
+  </data>
+  <data name="&gt;&gt;p2BadgeText.Parent" xml:space="preserve">
+    <value>p2Badge</value>
+  </data>
+  <data name="&gt;&gt;act2T.Name" xml:space="preserve">
+    <value>act2T</value>
+  </data>
+  <data name="&gt;&gt;p1L2.Parent" xml:space="preserve">
+    <value>pnlPromo1</value>
+  </data>
+  <data name="p1L2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="c4T.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 18</value>
+  </data>
+  <data name="p2L3.Text" xml:space="preserve">
+    <value>Ticket medio</value>
+  </data>
+  <data name="btnViviendas.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 9.5pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;p2L3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;card1.Name" xml:space="preserve">
+    <value>card1</value>
+  </data>
+  <data name="&gt;&gt;c1T.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="p2L1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;c1S.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="p1BadgeText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;p1V2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="guna2VScrollBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1122, 15</value>
+  </data>
+  <data name="p1V3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 160</value>
+  </data>
+  <data name="lblPortafolioSub.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 9.75pt</value>
+  </data>
+  <data name="subPromo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 10pt</value>
+  </data>
+  <data name="&gt;&gt;p2V1.Name" xml:space="preserve">
+    <value>p2V1</value>
+  </data>
+  <data name="portafolioCard.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;line4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Separator, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;pnlPromo2.Name" xml:space="preserve">
+    <value>pnlPromo2</value>
+  </data>
+  <data name="c3T.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="heroTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 24</value>
+  </data>
+  <data name="card3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 14</value>
+  </data>
+  <data name="p2Badge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 24</value>
+  </data>
+  <data name="&gt;&gt;titleActivity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3S.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 80</value>
+  </data>
+  <data name="p1Title.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="p2V1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="line2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 10</value>
+  </data>
+  <data name="p1V3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="c1S.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="c3T.Text" xml:space="preserve">
+    <value>Empresas asociadas</value>
+  </data>
+  <data name="act2T.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;p2L2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="subPromo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, 44</value>
+  </data>
+  <data name="subPromo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;act2Icon.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="c2V.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlPromo2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 24, 3</value>
+  </data>
+  <data name="p2Title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 21</value>
+  </data>
+  <data name="p1Sub.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;c4V.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="p2Sub.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;c2T.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="act2S.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="p1L3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 15</value>
+  </data>
+  <data name="&gt;&gt;p2V3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="line5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 10</value>
+  </data>
+  <data name="&gt;&gt;p1V3.Parent" xml:space="preserve">
+    <value>pnlPromo1</value>
+  </data>
+  <data name="&gt;&gt;p1V2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gunaVScroll.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;p2Badge.Parent" xml:space="preserve">
+    <value>pnlPromo2</value>
+  </data>
+  <data name="p2Title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="pnlActivity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="p1L1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnViviendas.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="c2S.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 18</value>
+  </data>
+  <data name="&gt;&gt;line3.Parent" xml:space="preserve">
+    <value>pnlPromo1</value>
+  </data>
+  <data name="p2V3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="c2S.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 80</value>
+  </data>
+  <data name="titleActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 9</value>
+  </data>
+  <data name="&gt;&gt;c2T.Name" xml:space="preserve">
+    <value>c2T</value>
+  </data>
+  <data name="c2T.Text" xml:space="preserve">
+    <value>Viviendas registradas</value>
+  </data>
+  <data name="p2V2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 120</value>
+  </data>
+  <data name="heroDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="p2V3.Text" xml:space="preserve">
+    <value>Alta demanda</value>
+  </data>
+  <data name="&gt;&gt;portafolioCard.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="p2V2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="act1T.Text" xml:space="preserve">
+    <value>Nueva vivienda registrada</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1125, 693</value>
+  </data>
+  <data name="c1S.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 11pt, style=Bold</value>
+  </data>
+  <data name="panelPrincipal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="c3T.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="gunaVScroll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1143, 0</value>
+  </data>
+  <data name="lblPortafolioTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="c2S.Text" xml:space="preserve">
+    <value>92 disponibles</value>
+  </data>
+  <data name="c3V.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="p1V2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="heroTitle.Text" xml:space="preserve">
+    <value>Control elegante y moderno para una promotora inmobiliaria.</value>
+  </data>
+  <data name="&gt;&gt;titleActivity.Parent" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;pnlActivity.Name" xml:space="preserve">
+    <value>pnlActivity</value>
+  </data>
+  <data name="p1V2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;subActivity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="card3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 110</value>
+  </data>
+  <data name="&gt;&gt;p1BadgeText.Name" xml:space="preserve">
+    <value>p1BadgeText</value>
+  </data>
+  <data name="&gt;&gt;subActivity.Parent" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;p1L1.Name" xml:space="preserve">
+    <value>p1L1</value>
+  </data>
+  <data name="&gt;&gt;heroCard.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="c1S.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="p1Badge.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="p1Badge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 24</value>
+  </data>
+  <data name="&gt;&gt;pnlActivity.Parent" xml:space="preserve">
+    <value>guna2Panel1</value>
+  </data>
+  <data name="&gt;&gt;p1V3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3T.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 11pt, style=Bold</value>
+  </data>
+  <data name="p1L2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 15</value>
+  </data>
+  <data name="&gt;&gt;card3.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="lblStatusBadge.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="c4T.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;line4.Name" xml:space="preserve">
+    <value>line4</value>
+  </data>
+  <data name="&gt;&gt;btnViviendas.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
+  <data name="&gt;&gt;p2L1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="p2Sub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 45</value>
+  </data>
+  <data name="p2BadgeText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;guna2Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;p2V3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlPromo2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 79</value>
+  </data>
+  <data name="c4S.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 11pt, style=Bold</value>
+  </data>
+  <data name="c2T.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="act1T.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="card1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 14</value>
+  </data>
+  <data name="act1S.Text" xml:space="preserve">
+    <value>VIV-104 añadida a Residencial Vista Norte...</value>
+  </data>
+  <data name="c2T.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="act1S.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="p1V1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 80</value>
+  </data>
+  <data name="&gt;&gt;c2S.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="p1L3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="c1T.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 20</value>
+  </data>
+  <data name="p1V1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblPortafolioVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 60</value>
+  </data>
+  <data name="p2L3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 160</value>
+  </data>
+  <data name="p2L2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="c3S.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SF Pro Display, 11pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;line2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;p2Sub.Parent" xml:space="preserve">
+    <value>pnlPromo2</value>
+  </data>
+  <data name="portafolioCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 192</value>
+  </data>
+  <data name="c1V.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 42</value>
+  </data>
+  <data name="guna2Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 394</value>
+  </data>
+  <data name="&gt;&gt;c4S.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p1V1.Name" xml:space="preserve">
+    <value>p1V1</value>
+  </data>
+  <data name="p2V2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="card1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 110</value>
+  </data>
+  <data name="subActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>770, 44</value>
+  </data>
+  <data name="titlePromo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en-US</value>
+  </metadata>
+  <metadata name="guna2Elipse2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>140, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>90</value>
+  </metadata>
+</root>
