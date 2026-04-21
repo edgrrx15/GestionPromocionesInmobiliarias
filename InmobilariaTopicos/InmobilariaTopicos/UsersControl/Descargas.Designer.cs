@@ -1,40 +1,23 @@
-﻿namespace InmobilariaTopicos.UsersControl
+namespace InmobilariaTopicos.UsersControl
 {
     partial class Descargas
     {
-        /// <summary> 
-        /// Variable del diseñador necesaria.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary> 
-        /// Limpiar los recursos que se estén usando.
-        /// </summary>
-        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
+            if (disposing && (components != null)) components.Dispose();
             base.Dispose(disposing);
         }
 
-        #region Código generado por el Diseñador de componentes
-
-        /// <summary> 
-        /// Método necesario para admitir el Diseñador. No se puede modificar
-        /// el contenido de este método con el editor de código.
-        /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.titlePromo = new System.Windows.Forms.Label();
             this.subPromo = new System.Windows.Forms.Label();
             this.heroCard = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnLimpiar = new Guna.UI2.WinForms.Guna2Button();
+            this.btnVistaPrevia = new Guna.UI2.WinForms.Guna2Button();
+            this.btnGuardarPDF = new Guna.UI2.WinForms.Guna2Button();
             this.tipoPromocionCombo = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.fechaFinal = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -43,38 +26,28 @@
             this.comboTipoReporteCombo = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lblPortafolioTitle = new System.Windows.Forms.Label();
-            this.guardarBoton = new Guna.UI2.WinForms.Guna2Button();
-            this.panelContratoActivo = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.label8 = new System.Windows.Forms.Label();
+            this.panelResumen = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblResultados = new System.Windows.Forms.Label();
+            this.lblResultadosLabel = new System.Windows.Forms.Label();
+            this.lblTipoValor = new System.Windows.Forms.Label();
+            this.lblTipoLabel = new System.Windows.Forms.Label();
+            this.lblFormatoValor = new System.Windows.Forms.Label();
+            this.lblFormatoLabel = new System.Windows.Forms.Label();
+            this.lblRangoValor = new System.Windows.Forms.Label();
+            this.lblRangoLabel = new System.Windows.Forms.Label();
+            this.lblResumenTitle = new System.Windows.Forms.Label();
             this.panelMain = new Guna.UI2.WinForms.Guna2Panel();
             this.heroCard.SuspendLayout();
-            this.panelContratoActivo.SuspendLayout();
-            this.guna2GradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            this.panelResumen.SuspendLayout();
             this.panelMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // titlePromo
             // 
             this.titlePromo.AutoSize = true;
-            this.titlePromo.Dock = System.Windows.Forms.DockStyle.Top;
             this.titlePromo.Font = new System.Drawing.Font("SF Pro Display", 18F, System.Drawing.FontStyle.Bold);
             this.titlePromo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
-            this.titlePromo.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.titlePromo.Location = new System.Drawing.Point(0, 0);
-            this.titlePromo.Margin = new System.Windows.Forms.Padding(0);
+            this.titlePromo.Location = new System.Drawing.Point(-5, 0);
             this.titlePromo.Name = "titlePromo";
             this.titlePromo.Size = new System.Drawing.Size(239, 29);
             this.titlePromo.TabIndex = 14;
@@ -83,10 +56,8 @@
             // subPromo
             // 
             this.subPromo.AutoSize = true;
-            this.subPromo.Dock = System.Windows.Forms.DockStyle.Top;
             this.subPromo.Font = new System.Drawing.Font("SF Pro Display", 10F);
             this.subPromo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.subPromo.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.subPromo.Location = new System.Drawing.Point(0, 29);
             this.subPromo.Name = "subPromo";
             this.subPromo.Size = new System.Drawing.Size(218, 17);
@@ -97,7 +68,9 @@
             // 
             this.heroCard.BackColor = System.Drawing.Color.Transparent;
             this.heroCard.BorderRadius = 24;
-            this.heroCard.Controls.Add(this.guna2Button1);
+            this.heroCard.Controls.Add(this.btnLimpiar);
+            this.heroCard.Controls.Add(this.btnVistaPrevia);
+            this.heroCard.Controls.Add(this.btnGuardarPDF);
             this.heroCard.Controls.Add(this.tipoPromocionCombo);
             this.heroCard.Controls.Add(this.label1);
             this.heroCard.Controls.Add(this.fechaFinal);
@@ -106,7 +79,6 @@
             this.heroCard.Controls.Add(this.comboTipoReporteCombo);
             this.heroCard.Controls.Add(this.label2);
             this.heroCard.Controls.Add(this.lblPortafolioTitle);
-            this.heroCard.Controls.Add(this.guardarBoton);
             this.heroCard.CustomBorderColor = System.Drawing.Color.Transparent;
             this.heroCard.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
             this.heroCard.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
@@ -117,23 +89,54 @@
             this.heroCard.Padding = new System.Windows.Forms.Padding(24);
             this.heroCard.ShadowDecoration.BorderRadius = 24;
             this.heroCard.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(10);
-            this.heroCard.Size = new System.Drawing.Size(536, 269);
+            this.heroCard.Size = new System.Drawing.Size(536, 285);
             this.heroCard.TabIndex = 15;
             // 
-            // guna2Button1
+            // btnLimpiar
             // 
-            this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.BorderThickness = 1;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.FillColor = System.Drawing.Color.White;
-            this.guna2Button1.Font = new System.Drawing.Font("SF Pro Display", 8.5F, System.Drawing.FontStyle.Bold);
-            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
-            this.guna2Button1.Location = new System.Drawing.Point(264, 201);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(118, 36);
-            this.guna2Button1.TabIndex = 39;
-            this.guna2Button1.Text = "Limpiar filtros";
+            this.btnLimpiar.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnLimpiar.BorderRadius = 10;
+            this.btnLimpiar.BorderThickness = 1;
+            this.btnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLimpiar.FillColor = System.Drawing.Color.White;
+            this.btnLimpiar.Font = new System.Drawing.Font("SF Pro Display", 8.5F, System.Drawing.FontStyle.Bold);
+            this.btnLimpiar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnLimpiar.Location = new System.Drawing.Point(27, 220);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(118, 36);
+            this.btnLimpiar.TabIndex = 39;
+            this.btnLimpiar.Text = "Limpiar filtros";
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
+            // btnVistaPrevia
+            // 
+            this.btnVistaPrevia.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.btnVistaPrevia.BorderRadius = 10;
+            this.btnVistaPrevia.BorderThickness = 1;
+            this.btnVistaPrevia.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVistaPrevia.FillColor = System.Drawing.Color.White;
+            this.btnVistaPrevia.Font = new System.Drawing.Font("SF Pro Display", 8.5F, System.Drawing.FontStyle.Bold);
+            this.btnVistaPrevia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.btnVistaPrevia.Location = new System.Drawing.Point(265, 220);
+            this.btnVistaPrevia.Name = "btnVistaPrevia";
+            this.btnVistaPrevia.Size = new System.Drawing.Size(118, 36);
+            this.btnVistaPrevia.TabIndex = 40;
+            this.btnVistaPrevia.Text = "Vista Previa";
+            this.btnVistaPrevia.Click += new System.EventHandler(this.btnVistaPrevia_Click);
+            // 
+            // btnGuardarPDF
+            // 
+            this.btnGuardarPDF.BorderRadius = 10;
+            this.btnGuardarPDF.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGuardarPDF.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(130)))), ((int)(((byte)(246)))));
+            this.btnGuardarPDF.Font = new System.Drawing.Font("SF Pro Display", 8.5F, System.Drawing.FontStyle.Bold);
+            this.btnGuardarPDF.ForeColor = System.Drawing.Color.White;
+            this.btnGuardarPDF.Location = new System.Drawing.Point(390, 220);
+            this.btnGuardarPDF.Name = "btnGuardarPDF";
+            this.btnGuardarPDF.Size = new System.Drawing.Size(118, 36);
+            this.btnGuardarPDF.TabIndex = 2;
+            this.btnGuardarPDF.Text = "Generar PDF";
+            this.btnGuardarPDF.Click += new System.EventHandler(this.btnGuardarPDF_Click);
             // 
             // tipoPromocionCombo
             // 
@@ -144,10 +147,10 @@
             this.tipoPromocionCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.tipoPromocionCombo.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tipoPromocionCombo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tipoPromocionCombo.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tipoPromocionCombo.Font = new System.Drawing.Font("SF Pro Display", 9.75F);
             this.tipoPromocionCombo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.tipoPromocionCombo.ItemHeight = 30;
-            this.tipoPromocionCombo.Location = new System.Drawing.Point(276, 68);
+            this.tipoPromocionCombo.Location = new System.Drawing.Point(276, 48);
             this.tipoPromocionCombo.Name = "tipoPromocionCombo";
             this.tipoPromocionCombo.Size = new System.Drawing.Size(230, 36);
             this.tipoPromocionCombo.TabIndex = 36;
@@ -157,36 +160,34 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("SF Pro Display", 9.75F);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(273, 45);
+            this.label1.Location = new System.Drawing.Point(273, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 16);
+            this.label1.Size = new System.Drawing.Size(89, 16);
             this.label1.TabIndex = 35;
-            this.label1.Text = "Promocion";
+            this.label1.Text = "Filtro adicional";
             // 
             // fechaFinal
             // 
             this.fechaFinal.BorderRadius = 18;
             this.fechaFinal.Checked = true;
             this.fechaFinal.FillColor = System.Drawing.Color.White;
-            this.fechaFinal.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fechaFinal.Font = new System.Drawing.Font("SF Pro Display", 9F);
             this.fechaFinal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
             this.fechaFinal.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.fechaFinal.Location = new System.Drawing.Point(276, 131);
+            this.fechaFinal.Location = new System.Drawing.Point(276, 118);
             this.fechaFinal.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.fechaFinal.MinDate = new System.DateTime(2010, 1, 1, 0, 0, 0, 0);
+            this.fechaFinal.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
             this.fechaFinal.Name = "fechaFinal";
             this.fechaFinal.Size = new System.Drawing.Size(232, 40);
             this.fechaFinal.TabIndex = 34;
-            this.fechaFinal.Value = new System.DateTime(2026, 4, 19, 10, 15, 30, 697);
+            this.fechaFinal.Value = new System.DateTime(2026, 4, 20, 0, 0, 0, 0);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("SF Pro Display", 9.75F);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(273, 112);
+            this.label3.Location = new System.Drawing.Point(273, 100);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 16);
             this.label3.TabIndex = 33;
@@ -197,17 +198,16 @@
             this.fechaInicial.BorderRadius = 18;
             this.fechaInicial.Checked = true;
             this.fechaInicial.FillColor = System.Drawing.Color.White;
-            this.fechaInicial.Font = new System.Drawing.Font("SF Pro Display", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fechaInicial.Font = new System.Drawing.Font("SF Pro Display", 9F);
             this.fechaInicial.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
             this.fechaInicial.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.fechaInicial.Location = new System.Drawing.Point(27, 131);
-            this.fechaInicial.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
+            this.fechaInicial.Location = new System.Drawing.Point(27, 118);
             this.fechaInicial.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.fechaInicial.MinDate = new System.DateTime(2010, 1, 1, 0, 0, 0, 0);
+            this.fechaInicial.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
             this.fechaInicial.Name = "fechaInicial";
             this.fechaInicial.Size = new System.Drawing.Size(230, 40);
             this.fechaInicial.TabIndex = 32;
-            this.fechaInicial.Value = new System.DateTime(2026, 4, 19, 10, 15, 30, 697);
+            this.fechaInicial.Value = new System.DateTime(2025, 1, 1, 0, 0, 0, 0);
             // 
             // comboTipoReporteCombo
             // 
@@ -218,10 +218,10 @@
             this.comboTipoReporteCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboTipoReporteCombo.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.comboTipoReporteCombo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.comboTipoReporteCombo.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboTipoReporteCombo.Font = new System.Drawing.Font("SF Pro Display", 9.75F);
             this.comboTipoReporteCombo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.comboTipoReporteCombo.ItemHeight = 30;
-            this.comboTipoReporteCombo.Location = new System.Drawing.Point(27, 68);
+            this.comboTipoReporteCombo.Location = new System.Drawing.Point(27, 48);
             this.comboTipoReporteCombo.Margin = new System.Windows.Forms.Padding(3, 3, 3, 8);
             this.comboTipoReporteCombo.Name = "comboTipoReporteCombo";
             this.comboTipoReporteCombo.Size = new System.Drawing.Size(230, 36);
@@ -232,8 +232,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("SF Pro Display", 9.75F);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label2.Location = new System.Drawing.Point(24, 112);
+            this.label2.Location = new System.Drawing.Point(24, 100);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 16);
             this.label2.TabIndex = 19;
@@ -244,279 +243,148 @@
             this.lblPortafolioTitle.AutoSize = true;
             this.lblPortafolioTitle.Font = new System.Drawing.Font("SF Pro Display", 9.75F);
             this.lblPortafolioTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.lblPortafolioTitle.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblPortafolioTitle.Location = new System.Drawing.Point(24, 45);
+            this.lblPortafolioTitle.Location = new System.Drawing.Point(24, 30);
             this.lblPortafolioTitle.Name = "lblPortafolioTitle";
             this.lblPortafolioTitle.Size = new System.Drawing.Size(92, 16);
             this.lblPortafolioTitle.TabIndex = 16;
             this.lblPortafolioTitle.Text = "Tipo de reporte";
             // 
-            // guardarBoton
+            // panelResumen
             // 
-            this.guardarBoton.BorderRadius = 10;
-            this.guardarBoton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guardarBoton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(130)))), ((int)(((byte)(246)))));
-            this.guardarBoton.Font = new System.Drawing.Font("SF Pro Display", 8.5F, System.Drawing.FontStyle.Bold);
-            this.guardarBoton.ForeColor = System.Drawing.Color.White;
-            this.guardarBoton.Location = new System.Drawing.Point(388, 202);
-            this.guardarBoton.Name = "guardarBoton";
-            this.guardarBoton.Size = new System.Drawing.Size(118, 35);
-            this.guardarBoton.TabIndex = 2;
-            this.guardarBoton.Text = "Continuar";
-            // 
-            // panelContratoActivo
-            // 
-            this.panelContratoActivo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.panelResumen.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelContratoActivo.BackColor = System.Drawing.Color.Transparent;
-            this.panelContratoActivo.BorderRadius = 24;
-            this.panelContratoActivo.Controls.Add(this.guna2Button2);
-            this.panelContratoActivo.Controls.Add(this.label13);
-            this.panelContratoActivo.Controls.Add(this.label14);
-            this.panelContratoActivo.Controls.Add(this.label11);
-            this.panelContratoActivo.Controls.Add(this.label12);
-            this.panelContratoActivo.Controls.Add(this.label9);
-            this.panelContratoActivo.Controls.Add(this.label10);
-            this.panelContratoActivo.Controls.Add(this.label7);
-            this.panelContratoActivo.Controls.Add(this.label6);
-            this.panelContratoActivo.Controls.Add(this.label5);
-            this.panelContratoActivo.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.panelContratoActivo.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
-            this.panelContratoActivo.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
-            this.panelContratoActivo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(247)))), ((int)(((byte)(9)))));
-            this.panelContratoActivo.Location = new System.Drawing.Point(562, 68);
-            this.panelContratoActivo.Margin = new System.Windows.Forms.Padding(3, 3, 3, 24);
-            this.panelContratoActivo.Name = "panelContratoActivo";
-            this.panelContratoActivo.Padding = new System.Windows.Forms.Padding(12);
-            this.panelContratoActivo.ShadowDecoration.BorderRadius = 24;
-            this.panelContratoActivo.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(10);
-            this.panelContratoActivo.Size = new System.Drawing.Size(536, 190);
-            this.panelContratoActivo.TabIndex = 16;
+            this.panelResumen.BackColor = System.Drawing.Color.Transparent;
+            this.panelResumen.BorderRadius = 24;
+            this.panelResumen.Controls.Add(this.lblResultados);
+            this.panelResumen.Controls.Add(this.lblResultadosLabel);
+            this.panelResumen.Controls.Add(this.lblTipoValor);
+            this.panelResumen.Controls.Add(this.lblTipoLabel);
+            this.panelResumen.Controls.Add(this.lblFormatoValor);
+            this.panelResumen.Controls.Add(this.lblFormatoLabel);
+            this.panelResumen.Controls.Add(this.lblRangoValor);
+            this.panelResumen.Controls.Add(this.lblRangoLabel);
+            this.panelResumen.Controls.Add(this.lblResumenTitle);
+            this.panelResumen.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.panelResumen.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
+            this.panelResumen.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
+            this.panelResumen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(247)))), ((int)(((byte)(9)))));
+            this.panelResumen.Location = new System.Drawing.Point(562, 68);
+            this.panelResumen.Margin = new System.Windows.Forms.Padding(3, 3, 3, 24);
+            this.panelResumen.Name = "panelResumen";
+            this.panelResumen.Padding = new System.Windows.Forms.Padding(12);
+            this.panelResumen.ShadowDecoration.BorderRadius = 24;
+            this.panelResumen.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(10);
+            this.panelResumen.Size = new System.Drawing.Size(536, 285);
+            this.panelResumen.TabIndex = 16;
             // 
-            // guna2Button2
+            // lblResultados
             // 
-            this.guna2Button2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2Button2.BorderRadius = 10;
-            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(130)))), ((int)(((byte)(246)))));
-            this.guna2Button2.Font = new System.Drawing.Font("SF Pro Display", 8.5F, System.Drawing.FontStyle.Bold);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(19, 144);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(503, 35);
-            this.guna2Button2.TabIndex = 40;
-            this.guna2Button2.Text = "Exportar";
+            this.lblResultados.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblResultados.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
+            this.lblResultados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.lblResultados.Location = new System.Drawing.Point(280, 140);
+            this.lblResultados.Name = "lblResultados";
+            this.lblResultados.Size = new System.Drawing.Size(240, 16);
+            this.lblResultados.TabIndex = 47;
+            this.lblResultados.Text = "0";
+            this.lblResultados.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label13
+            // lblResultadosLabel
             // 
-            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label13.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label13.Location = new System.Drawing.Point(362, 117);
-            this.label13.Margin = new System.Windows.Forms.Padding(3, 0, 3, 8);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(159, 16);
-            this.label13.TabIndex = 47;
-            this.label13.Text = "18 registros";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblResultadosLabel.AutoSize = true;
+            this.lblResultadosLabel.Font = new System.Drawing.Font("SF Pro Display", 9.75F);
+            this.lblResultadosLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblResultadosLabel.Location = new System.Drawing.Point(16, 140);
+            this.lblResultadosLabel.Name = "lblResultadosLabel";
+            this.lblResultadosLabel.Size = new System.Drawing.Size(132, 16);
+            this.lblResultadosLabel.TabIndex = 46;
+            this.lblResultadosLabel.Text = "Registros encontrados";
             // 
-            // label14
+            // lblTipoValor
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("SF Pro Display", 9.75F);
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label14.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label14.Location = new System.Drawing.Point(16, 117);
-            this.label14.Margin = new System.Windows.Forms.Padding(3, 0, 3, 8);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(142, 16);
-            this.label14.TabIndex = 46;
-            this.label14.Text = "Resultados Encontrados";
+            this.lblTipoValor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTipoValor.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
+            this.lblTipoValor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblTipoValor.Location = new System.Drawing.Point(280, 110);
+            this.lblTipoValor.Name = "lblTipoValor";
+            this.lblTipoValor.Size = new System.Drawing.Size(240, 16);
+            this.lblTipoValor.TabIndex = 45;
+            this.lblTipoValor.Text = "—";
+            this.lblTipoValor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label11
+            // lblTipoLabel
             // 
-            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label11.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label11.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label11.Location = new System.Drawing.Point(363, 93);
-            this.label11.Margin = new System.Windows.Forms.Padding(3, 0, 3, 8);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(159, 16);
-            this.label11.TabIndex = 45;
-            this.label11.Text = "Facturas";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTipoLabel.AutoSize = true;
+            this.lblTipoLabel.Font = new System.Drawing.Font("SF Pro Display", 9.75F);
+            this.lblTipoLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblTipoLabel.Location = new System.Drawing.Point(16, 110);
+            this.lblTipoLabel.Name = "lblTipoLabel";
+            this.lblTipoLabel.Size = new System.Drawing.Size(92, 16);
+            this.lblTipoLabel.TabIndex = 44;
+            this.lblTipoLabel.Text = "Tipo de reporte";
             // 
-            // label12
+            // lblFormatoValor
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("SF Pro Display", 9.75F);
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label12.Location = new System.Drawing.Point(16, 93);
-            this.label12.Margin = new System.Windows.Forms.Padding(3, 0, 3, 8);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(75, 16);
-            this.label12.TabIndex = 44;
-            this.label12.Text = "Tipo reporte";
+            this.lblFormatoValor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblFormatoValor.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
+            this.lblFormatoValor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblFormatoValor.Location = new System.Drawing.Point(280, 80);
+            this.lblFormatoValor.Name = "lblFormatoValor";
+            this.lblFormatoValor.Size = new System.Drawing.Size(240, 16);
+            this.lblFormatoValor.TabIndex = 43;
+            this.lblFormatoValor.Text = "PDF";
+            this.lblFormatoValor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label9
+            // lblFormatoLabel
             // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label9.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label9.Location = new System.Drawing.Point(362, 69);
-            this.label9.Margin = new System.Windows.Forms.Padding(3, 0, 3, 8);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(159, 16);
-            this.label9.TabIndex = 43;
-            this.label9.Text = "PDF";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblFormatoLabel.AutoSize = true;
+            this.lblFormatoLabel.Font = new System.Drawing.Font("SF Pro Display", 9.75F);
+            this.lblFormatoLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblFormatoLabel.Location = new System.Drawing.Point(16, 80);
+            this.lblFormatoLabel.Name = "lblFormatoLabel";
+            this.lblFormatoLabel.Size = new System.Drawing.Size(53, 16);
+            this.lblFormatoLabel.TabIndex = 42;
+            this.lblFormatoLabel.Text = "Formato";
             // 
-            // label10
+            // lblRangoValor
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("SF Pro Display", 9.75F);
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label10.Location = new System.Drawing.Point(16, 69);
-            this.label10.Margin = new System.Windows.Forms.Padding(3, 0, 3, 8);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(53, 16);
-            this.label10.TabIndex = 42;
-            this.label10.Text = "Formato";
+            this.lblRangoValor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblRangoValor.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
+            this.lblRangoValor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblRangoValor.Location = new System.Drawing.Point(280, 50);
+            this.lblRangoValor.Name = "lblRangoValor";
+            this.lblRangoValor.Size = new System.Drawing.Size(240, 16);
+            this.lblRangoValor.TabIndex = 41;
+            this.lblRangoValor.Text = "—";
+            this.lblRangoValor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label7
+            // lblRangoLabel
             // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label7.Font = new System.Drawing.Font("SF Pro Display", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label7.Location = new System.Drawing.Point(362, 45);
-            this.label7.Margin = new System.Windows.Forms.Padding(3, 0, 3, 8);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(159, 16);
-            this.label7.TabIndex = 41;
-            this.label7.Text = "01/01/2025 - 01/01/2026";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblRangoLabel.AutoSize = true;
+            this.lblRangoLabel.Font = new System.Drawing.Font("SF Pro Display", 9.75F);
+            this.lblRangoLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lblRangoLabel.Location = new System.Drawing.Point(16, 50);
+            this.lblRangoLabel.Name = "lblRangoLabel";
+            this.lblRangoLabel.Size = new System.Drawing.Size(101, 16);
+            this.lblRangoLabel.TabIndex = 40;
+            this.lblRangoLabel.Text = "Rango de fechas";
             // 
-            // label6
+            // lblResumenTitle
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("SF Pro Display", 9.75F);
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label6.Location = new System.Drawing.Point(16, 45);
-            this.label6.Margin = new System.Windows.Forms.Padding(3, 0, 3, 8);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(81, 16);
-            this.label6.TabIndex = 40;
-            this.label6.Text = "Rango actual";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("SF Pro Display", 14F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
-            this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label5.Location = new System.Drawing.Point(15, 12);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(244, 23);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Configuracion de descarga";
-            // 
-            // guna2GradientPanel1
-            // 
-            this.guna2GradientPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel1.BorderRadius = 24;
-            this.guna2GradientPanel1.Controls.Add(this.guna2DataGridView1);
-            this.guna2GradientPanel1.Controls.Add(this.label8);
-            this.guna2GradientPanel1.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(247)))), ((int)(((byte)(9)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(562, 285);
-            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Padding = new System.Windows.Forms.Padding(12);
-            this.guna2GradientPanel1.ShadowDecoration.BorderRadius = 24;
-            this.guna2GradientPanel1.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(10);
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(536, 238);
-            this.guna2GradientPanel1.TabIndex = 19;
-            // 
-            // guna2DataGridView1
-            // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeight = 4;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(247)))), ((int)(((byte)(9)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(19, 45);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(503, 178);
-            this.guna2DataGridView1.TabIndex = 18;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(247)))), ((int)(((byte)(9)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("SF Pro Display", 14F, System.Drawing.FontStyle.Bold);
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
-            this.label8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label8.Location = new System.Drawing.Point(15, 12);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(178, 23);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "Historial descargas";
+            this.lblResumenTitle.AutoSize = true;
+            this.lblResumenTitle.Font = new System.Drawing.Font("SF Pro Display", 14F, System.Drawing.FontStyle.Bold);
+            this.lblResumenTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(23)))), ((int)(((byte)(42)))));
+            this.lblResumenTitle.Location = new System.Drawing.Point(15, 12);
+            this.lblResumenTitle.Name = "lblResumenTitle";
+            this.lblResumenTitle.Size = new System.Drawing.Size(244, 23);
+            this.lblResumenTitle.TabIndex = 17;
+            this.lblResumenTitle.Text = "Configuracion de descarga";
             // 
             // panelMain
             // 
             this.panelMain.AutoScroll = true;
             this.panelMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(243)))), ((int)(((byte)(251)))));
-            this.panelMain.Controls.Add(this.guna2GradientPanel1);
-            this.panelMain.Controls.Add(this.panelContratoActivo);
+            this.panelMain.Controls.Add(this.panelResumen);
             this.panelMain.Controls.Add(this.heroCard);
             this.panelMain.Controls.Add(this.subPromo);
             this.panelMain.Controls.Add(this.titlePromo);
@@ -536,46 +404,38 @@
             this.Size = new System.Drawing.Size(1125, 902);
             this.heroCard.ResumeLayout(false);
             this.heroCard.PerformLayout();
-            this.panelContratoActivo.ResumeLayout(false);
-            this.panelContratoActivo.PerformLayout();
-            this.guna2GradientPanel1.ResumeLayout(false);
-            this.guna2GradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            this.panelResumen.ResumeLayout(false);
+            this.panelResumen.PerformLayout();
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
-        #endregion
-
-        private System.Windows.Forms.Label titlePromo;
-        private System.Windows.Forms.Label subPromo;
+        private System.Windows.Forms.Label   titlePromo;
+        private System.Windows.Forms.Label   subPromo;
         private Guna.UI2.WinForms.Guna2GradientPanel heroCard;
         private Guna.UI2.WinForms.Guna2ComboBox tipoPromocionCombo;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label   label1;
         private Guna.UI2.WinForms.Guna2DateTimePicker fechaFinal;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label   label3;
         private Guna.UI2.WinForms.Guna2DateTimePicker fechaInicial;
         private Guna.UI2.WinForms.Guna2ComboBox comboTipoReporteCombo;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblPortafolioTitle;
-        private Guna.UI2.WinForms.Guna2Button guardarBoton;
-        private Guna.UI2.WinForms.Guna2GradientPanel panelContratoActivo;
-        private System.Windows.Forms.Label label5;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label   label2;
+        private System.Windows.Forms.Label   lblPortafolioTitle;
+        private Guna.UI2.WinForms.Guna2Button btnGuardarPDF;
+        private Guna.UI2.WinForms.Guna2Button btnVistaPrevia;
+        private Guna.UI2.WinForms.Guna2Button btnLimpiar;
+        private Guna.UI2.WinForms.Guna2GradientPanel panelResumen;
+        private System.Windows.Forms.Label   lblResumenTitle;
+        private System.Windows.Forms.Label   lblRangoLabel;
+        private System.Windows.Forms.Label   lblRangoValor;
+        private System.Windows.Forms.Label   lblFormatoLabel;
+        private System.Windows.Forms.Label   lblFormatoValor;
+        private System.Windows.Forms.Label   lblTipoLabel;
+        private System.Windows.Forms.Label   lblTipoValor;
+        private System.Windows.Forms.Label   lblResultadosLabel;
+        private System.Windows.Forms.Label   lblResultados;
         private Guna.UI2.WinForms.Guna2Panel panelMain;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
     }
 }
